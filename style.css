@@ -4,6 +4,7 @@
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
+    border-radius: 8px;
 }
 
 .color img:hover {
@@ -27,6 +28,10 @@
 
 
 /* Standard CSS */
+
+body {
+	background-color: black;
+}
 div.headerImage {
     content: url(https://gunnar.com/wp-content/uploads/2015/01/league.png);
     background-image: url(https://gunnar.com/wp-content/uploads/2015/01/league.png);

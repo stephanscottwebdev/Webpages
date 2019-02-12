@@ -8,24 +8,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel=stylesheet type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>LoL Lore</title>
 </head>
 
 <body>
+	<audio id="bg_audio" src="/demaciaRising.mp3" loop="loop"></audio>
     <div class="headerImage container-fluid">
     </div>
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
             <h1 class="display-4">Visit the Regions of Runeterra</h1>
-            <!--<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>-->
+            <p class="lead">Learn where the champions are from and where the conflict between them began.</p>
         </div>
     </div>
     <div class="card-group">
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fnoxus_splash.jpg&resize=:1800" width="100%" height="255" />
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fbandle-city_splash.jpg&resize=:1800" width="100%" height="255" />
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Noxus</b></p>
+                    <p class="card-text" align="center"><b>Bandle City</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -35,7 +36,46 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fbilgewater_splash.jpg&resize=:1800" width="100%" height="255" />
+                <div class="card-body">
+                    <p class="card-text" align="center"><b>Bilgewater</b></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 grow color">
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fdemacia_splash.jpg&resize=:1800" width="100%" height="255"/>
+                <div class="card-body">
+                    <p class="card-text" align="center"><b>Demacia</b></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 grow color">
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Ffreljord_splash.jpg&resize=:1800" width="100%" height="255"/>
+                <div class="card-body">
+                    <p class="card-text" align="center"><b>Frelord</b></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 grow color">
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
                 <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fionia-01.jpg&resize=:1800" width="100%" height="255" />
                 <div class="card-body">
                     <p class="card-text" align="center"><b>Ionia</b></p>
@@ -48,10 +88,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fdemacia_splash1.jpg&resize=:1800" width="100%" height="255"/>
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fmount-targon_splash.jpg&resize=:1800" width="100%" height="255" />
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Demacia</b></p>
+                    <p class="card-text" align="center"><b>Mount Targon</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -61,21 +101,8 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fbilgewater_splash.jpg&resize=:1800" width="100%" height="255"/>
-                <div class="card-body">
-                    <p class="card-text" align="center"><b>Bligewater</b></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fnoxus_splash.jpg&resize=:1800" width="100%" height="255" />
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fnoxus_splash.jpg&resize=:1800" width="100%" height="255"/>
                 <div class="card-body">
                     <p class="card-text" align="center"><b>Noxus</b></p>
                     <div class="d-flex justify-content-between align-items-center">
@@ -87,10 +114,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fionia-01.jpg&resize=:1800" width="100%" height="255" />
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fpiltover_splash.jpg&resize=:1800" width="100%" height="255"/>
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Ionia</b></p>
+                    <p class="card-text" align="center"><b>Piltover</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -100,10 +127,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fdemacia_splash1.jpg&resize=:1800" width="100%" height="255"/>
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fshadow-isles_splash.jpg&resize=:1800" width="100%" height="255" />
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Demacia</b></p>
+                    <p class="card-text" align="center"><b>Shadow Isles</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -113,10 +140,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fbilgewater_splash.jpg&resize=:1800" width="100%" height="255"/>
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fshurima_splash.jpg&resize=:1800" width="100%" height="255" />
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Bligewater</b></p>
+                    <p class="card-text" align="center"><b>Shurima</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -126,10 +153,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fnoxus_splash.jpg&resize=:1800" width="100%" height="255" />
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fvoid-an-unknowable-power.jpg&resize=:1800" width="100%" height="255"/>
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Noxus</b></p>
+                    <p class="card-text" align="center"><b>Void</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -139,36 +166,10 @@
             </div>
         </div>
         <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fionia-01.jpg&resize=:1800" width="100%" height="255" />
+            <div class="card-img-top card bg-light mb-3 card border-info mb-3 shadow-sm">
+                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fzaun_splash.jpg&resize=:1800" width="100%" height="255"/>
                 <div class="card-body">
-                    <p class="card-text" align="center"><b>Ionia</b></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fdemacia_splash1.jpg&resize=:1800" width="100%" height="255"/>
-                <div class="card-body">
-                    <p class="card-text" align="center"><b>Demacia</b></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 grow color">
-            <div class="card-img-top card mb-4 shadow-sm">
-                <img src="https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Ffactions%2Fbilgewater_splash.jpg&resize=:1800" width="100%" height="255"/>
-                <div class="card-body">
-                    <p class="card-text" align="center"><b>Bligewater</b></p>
+                    <p class="card-text" align="center"><b>Zaun</b></p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Champions</button>
@@ -190,3 +191,4 @@
 </footer>
 
 </html>
+<script src="/script.js"></script>
